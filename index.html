@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Activity Compilation | Dale Landoy</title>
+  <meta name="description" content="A compilation of three web activities by Dale Landoy: a personal portfolio, a marketplace and a responsive marketing campaign.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..800&amp;family=Lexend+Exa:wght@400&amp;display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f%5B%5D=switzer@400,500,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/brand.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="wordmark" href="#home">Dale Landoy</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container">
+        <p class="eyebrow glass rise">HTML · CSS · Responsive Design</p>
+        <h1 class="rise rise-2">Student Activity <mark>Compilation</mark></h1>
+        <p class="hero-sub rise rise-3">Three web projects built by hand with HTML5 and CSS3: a personal portfolio, a skincare marketplace and a marketing campaign page that works on any screen.</p>
+        <div class="hero-actions rise rise-4">
+          <a class="btn" href="#activities">Explore Activities</a>
+          <a class="btn btn-ghost" href="#about">About me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="activities">
+      <div class="container">
+        <header class="section-head">
+          <h2>Featured activities</h2>
+          <p>Each card opens the finished project. Every page uses semantic HTML, a separate stylesheet and relative file paths.</p>
+        </header>
+
+        <div class="card-grid">
+
+          <article class="project-card glass">
+            <a class="project-shot" href="portfolio/index.html" tabindex="-1" aria-hidden="true">
+              <img src="images/shot-portfolio.png" alt="" width="1280" height="800" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-num">Activity 01</p>
+              <h3>Personal Portfolio</h3>
+              <p>An introduction to who I am, the skills I use in my agency, my projects, seminars and awards, and the best ways to reach me.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">Flexbox</li>
+                <li class="tag">CSS Grid</li>
+              </ul>
+              <a class="btn project-link" href="portfolio/index.html">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card glass">
+            <a class="project-shot" href="marketplace/index.html" tabindex="-1" aria-hidden="true">
+              <img src="images/shot-marketplace.png" alt="" width="1280" height="800" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-num">Activity 02</p>
+              <h3>The Extraordinary Brand</h3>
+              <p>A launch-sale storefront for an affordable skincare brand in Laguna, made for students and young professionals starting a simple routine.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">CSS Grid</li>
+                <li class="tag">Media queries</li>
+              </ul>
+              <a class="btn project-link" href="marketplace/index.html">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card glass">
+            <a class="project-shot" href="campaign/index.html" tabindex="-1" aria-hidden="true">
+              <img src="images/shot-campaign.png" alt="" width="1280" height="800" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-num">Activity 03</p>
+              <h3>Marketing Campaign</h3>
+              <p>"Your website is the second email", a responsive Casual Outbounds campaign page for agency owners who send cold email.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">Media queries</li>
+                <li class="tag">Grid + Flexbox</li>
+              </ul>
+              <a class="btn project-link" href="campaign/index.html">View Project</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <figure class="about-photo">
+          <img src="images/profile.jpg" alt="Portrait of Dale Landoy smiling in front of a lime green wall" width="500" height="500" loading="lazy">
+        </figure>
+
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>Hi, I'm Dale Landoy, a BS Marketing student at Mapúa Malayan Colleges Laguna and the founder of Casual Outbounds, a B2B cold outbound agency. I took a gap year to build the agency, and now I'm in school learning the craft behind the websites my clients and I depend on.</p>
+
+          <h3>What I learned</h3>
+          <ul class="learned-list">
+            <li><strong>Structure first.</strong> Semantic elements like header, nav, main, section, article and footer make a page easier to read for people, screen readers and search engines.</li>
+            <li><strong>Styling as a system.</strong> Keeping colors, type and spacing in CSS variables makes three different pages feel like one body of work.</li>
+            <li><strong>Layout that adapts.</strong> Flexbox, CSS Grid and media queries let one page rearrange itself for a phone, a tablet and a desktop without scrolling sideways.</li>
+            <li><strong>Small details matter.</strong> Alt text, relative paths and links that actually work are what separate a page that looks finished from one that is.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Dale Ysmael B. Landoy</strong></p>
+      <ul>
+        <li>BS Marketing</li>
+        <li>Section ETY131</li>
+        <li>A.Y. 2026–2027</li>
+        <li>Mapúa Malayan Colleges Laguna</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
