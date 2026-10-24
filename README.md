@@ -4,7 +4,8 @@
 
 A web compilation of three activities built with HTML5 and CSS3. Open `index.html` to start.
 
-GitHub: ADD-YOUR-GITHUB-LINK
+- **Live site:** https://thedalelandoy.github.io/student-activity-compilation/
+- **GitHub repository:** https://github.com/thedalelandoy/student-activity-compilation
 
 ## Activities
 
